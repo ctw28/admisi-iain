@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ADMISI IAIN KENDARI</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="https://iainkendari.ac.id/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: OnePage
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">ADMISI IAIN KENDARI</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Beranda<br></a></li>
+          <li><a href="#about">Profil dan Prodi</a></li>
+          <li class="dropdown"><a href="#"><span>Pendaftaran</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#s1">Sarjana</a></li>
+              <li><a href="#s2">Pascasarjana</a></li>
+            </ul>
+          </li>
+          <li><a href="#find-us">Temukan Kami</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="http://iainkendari.ac.id">WEB IAIN KENDARI <i class="bi bi-arrow-right"></i></a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/about.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-out">
+          <div class="col-xl-7 col-lg-9 text-center">
+            <h1>Admisi IAIN Kendari</h1>
+            <p>Portal Penerimaan Mahasiswa IAIN Kendari</p>
+          </div>
+        </div>
+        <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
+          <a href="#s1" class="btn-get-started"><i class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+          <a class="btn-get-started" style="background-color: #FFB03B;" href="#"><i class="bi bi-clipboard-check"></i> Download Brosur PMB
+            2025</a>
+        </div>
+
+        <div class="row gy-4 mt-5">
+          <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="100">
+            <div class="icon-box text-center">
+              <div class="icon"><i class="bi bi-easel"></i></div>
+              <h4 class="title"><a href="">Satu-satunya Perguruan Tinggi Keagamaan Negeri <br>di Sulawesi Tenggara</a>
+              </h4>
+              <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p> -->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+            <div class="icon-box text-center">
+              <div class="icon"><i class="bi bi-command"></i></div>
+              <h4 class="title"><a href="">Kampus Metaverse</a></h4>
+              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p> -->
+            </div>
+          </div>
+          <!--End Icon Box -->
+          <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
+            <div class="icon-box text-center">
+              <div class="icon"><i class="bi bi-gem"></i></div>
+              <h4 class="title"><a href="">UKT yang sangat terjangkau, mulai dari 400.000 - 2.600.000 saja</a></h4>
+              <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
+            <div class="icon-box text-center">
+              <div class="icon"><i class="bi bi-geo-alt"></i></div>
+              <h4 class="title"><a href="">Berbagai Pilihan Program Studi Keagamaan dan Umum</a></h4>
+              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p> -->
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Alt Section -->
+    <section id="about" class="about-alt section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>PROFIL DAN PRODI</h2>
+        <p>Video Profil dan Daftar prodi</p>
+      </div><!-- End Section Title -->
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=PNrwYkpkwaM" class="glightbox pulsating-play-btn"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Daftar Prodi dan Biaya</h3>
+            <div id="app">
+              <table class="table">
+                <thead>
+                  <tr class="text-center">
+                    <th>No</th>
+                    <th>Jenjang</th>
+                    <th>Jumlah Prodi</th>
+                    <th>Aksi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(jenjang, index) in jenjangList" :key="jenjang.nama" class="text-center">
+                    <td>{{ index + 1 }}</td>
+                    <td>{{ jenjang.nama }}</td>
+                    <td>{{ jenjang.jumlah }} Prodi</td>
+                    <td>
+                      <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal"
+                        @click="bukaModal(jenjang)">
+                        <i class="bi bi-file-earmark-text"></i> Detail
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <a class="btn btn-warning" href=""><i class="bi bi-download"></i> Download Brosur Penerimaan Mahasiswa</a>
+
+              <!-- Modal -->
+              <div class="modal fade" id="detailModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Detail Prodi {{ selectedJenjang.nama }}</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table table-bordered table-striped">
+                        <thead>
+                          <tr>
+                            <th>No</th>
+                            <th>Fakultas</th>
+                            <th>Program Studi</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr v-for="(prodi, index) in selectedJenjang.prodi" :key="index">
+                            <td>{{ index + 1 }}</td>
+                            <td>{{ prodi.fakultas }}</td>
+                            <td>{{ prodi.nama }}</td>
+                          </tr>
+                          <tr v-if="selectedJenjang.prodi.length === 0">
+                            <td colspan="4" class="text-center text-muted">Tidak ada data</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
+            </p> -->
+            <!-- <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+              </li>
+              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
+                  velit.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                  pariatur.</span></li>
+            </ul>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p> -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Alt Section -->
+
+
+    <!-- Services Section -->
+    <section id="s1" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>JALUR PENDAFTARAN SARJANA (S1)</h2>
+        <p>Pilih jalur penerimaan yang sesuai</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="assets/img/spanum.png" width="200" alt="">
+              </div>
+              <h3>SPAN PTKIN</h3>
+              <p>Seleksi nasional tanpa tes, berdasarkan nilai rapor dan prestasi akademik.</p>
+              <p class="mb-1">
+                <strong>Status:</strong>
+                <span class="text-danger">Berakhir</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+              </p>
+              <a class="btn btn-secondary mt-2" href="https://span.ptkin.ac.id/" target="_blank"><i class="bi bi-check-circle"></i>
+                Pengumuman Kelulusan</a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="assets/img/spanum.png" width="200" alt="">
+              </div>
+              <h3>UM PTKIN</h3>
+              <p>Seleksi nasional melalui ujian berbasis komputer (SSE), diselenggarakan serentak oleh Kementerian
+                Agama.</p>
+              <p class="mb-1">
+                <strong>Status:</strong>
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+              </p>
+              <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/" target="_blank"><i class="bi bi-clipboard-check"></i>
+                Daftar Sekarang</a>
+
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="assets/img/logo iain kendari.webp" width="100" alt="">
+              </div>
+              <h3>MANDIRI LOKAL</h3>
+              <p>Seleksi penerimaan yang diselenggarakan IAIN Kendari menggunakan Tes Berbasis Komputer (CBT).</p>
+              <p class="mb-1">
+                <strong>Status:</strong>
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+              </p>
+              <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi" target="_blank"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="assets/img/logo iain kendari.webp" width="100" alt="">
+              </div>
+              <h3>RPL</h3>
+              <p>Penerimaan mahasiswa berdasarkan pengakuan atas pengalaman kerja atau pembelajaran sebelumnya.</p>
+              <p class="mb-1">
+                <strong>Status:</strong>
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+              </p>
+              <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi" target="_blank"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+    <section id="s2" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>JALUR PENDAFTARAN PASCASARJANA (S2)</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="assets/img/spanum.png" width="200" alt="">
+              </div>
+              <h3>Reguler</h3>
+              <p>Penerimaan mahasiswa magister dengan Sistem Kuliah Reguler.</p>
+              <p class="mb-1">
+                <strong>Status:</strong>
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+              </p>
+              <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi" target="_blank"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Apa yang kamu peroleh?</h2>
+        <p>Berbagai hal yang bisa kamu peroleh selama di IAIN Kendari</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+                  </path>
+                </svg>
+                <i class="bi bi-activity"></i>
+              </div>
+              <h3>UKT yang sangat terjangkau</h3>
+              <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+                tempore et consequatur.</p> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
+                  </path>
+                </svg>
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <h3>Layanan Digital Terintegrasi</h3>
+              <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
+                nesciunt dolorem.</p> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
+                  </path>
+                </svg>
+                <i class="bi bi-easel"></i>
+              </div>
+              <h3>Berbagai Pilihan Beasiswa</h3>
+              <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
+                eos earum corrupti.</p> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
+                  </path>
+                </svg>
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <h3>Pembinaan Minat dan Bakat Mahasiswa</h3>
+              <!-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
+                adipisci neque.</p> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572">
+                  </path>
+                </svg>
+                <i class="bi bi-calendar4-week icon"></i>
+              </div>
+              <h3>Fasilitas Lengkap & Modern</h3>
+              <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
+                alias eius labore.</p> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                  </path>
+                </svg>
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <h3>Kampus Pelopor Metaverse</h3>
+              <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
+                recusandae ducimus enim.</p> -->
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="find-us" class="call-to-action section accent-background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Temukan Kami</h3>
+
+              <!-- Media Sosial -->
+              <div class="mb-3">
+                <a href="https://www.instagram.com/iain.kendari/" class="me-3" target="_blank">
+                  <i class="bi bi-instagram fs-3"></i>
+                </a>
+                <a href="https://www.tiktok.com/@iain.kendari" class="me-3" target="_blank">
+                  <i class="bi bi-tiktok fs-3"></i>
+                </a>
+                <a href="https://www.youtube.com/@iainkendari3348" class="me-3" target="_blank">
+                  <i class="bi bi-youtube fs-3"></i>
+                </a>
+                <a href="https://www.facebook.com/iainkendari" class="me-3" target="_blank">
+                  <i class="bi bi-facebook fs-3"></i>
+                </a>
+              </div>
+
+              <p>Helpdesk</p>
+              <a class="cta-btn"
+                href="https://wa.me/6282113874437?text=Assalamu'alaikum%2C%20saya%20ingin%20bertanya%20tentang%20Penerimaan%20Mahasiswa%20IAIN%20Kendari%20Web%20Admisi"
+                target="_blank"><i class="bi bi-whatsapp"></i> Tanya Di Sini</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>LOKASI</h2>
+        <p>Berikut lokasi kampus IAIN Kendari</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Kampus 1 TIPULU</h3>
+                <p>Jalan Sultan Hasanuddin No. 102 Tipulu, Kendari Provinsi Sulawesi Tenggara</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Kampus 2 (UTAMA)</h3>
+                <p>Jalan Sultan Qaimuddin No. 17 Baruga, Kendari Provinsi Sulawesi Tenggara</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Kampus 3 BAU-BAU</h3>
+                <p>Jalan Wa Ode Wau Tanganapada Kec. Murhum Kota Bau-Bau</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+              <iframe style="border:0; width: 100%; height: 270px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5347.98638770946!2d122.47242527613831!3d-4.041444695932272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d988c472863d8db%3A0x80e257d51fbd380d!2sIAIN%20Kendari!5e1!3m2!1sen!2sid!4v1747625192170!5m2!1sen!2sid"
+                frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!-- End Google Maps -->
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Admisi</strong> <span>IAIN KENDARI 2025</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+          href=“https://themewagon.com>ThemeWagon
+      </div>
+    </div>
+  </footer> <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+  <script>
+    const {
+      createApp
+    } = Vue;
+
+    createApp({
+      data() {
+        return {
+          jenjangList: [{
+              nama: "Sarjana (S1)",
+              jumlah: 20,
+              prodi: [{
+                  fakultas: "Ekonomi dan Bisnis Islam",
+                  nama: "Ekonomi Syariah"
+                },
+                {
+                  fakultas: "Ekonomi dan Bisnis Islam",
+                  nama: "Manajemen Bisnis Syariah"
+                },
+                {
+                  fakultas: "Ekonomi dan Bisnis Islam",
+                  nama: "Perbankan Syariah"
+                },
+                {
+                  fakultas: "Syariah",
+                  nama: "Hukum Keluarga Islam (Ahwal Syakhshiyyah)"
+                },
+                {
+                  fakultas: "Syariah",
+                  nama: "Hukum Tatanegara (Siyasah Syar'iyyah)"
+                },
+                {
+                  fakultas: "Syariah",
+                  nama: "Hukum Ekonomi Syariah (Mua'malah)"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Bahasa Inggris"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Biologi"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Fisika"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris IPA"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Manajemen Pendidikan Islam"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Matematika"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Agama Islam"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Bahasa Arab"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Guru Madrasah Ibtidaiyah"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Islam Anak Usia Dini"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Guru Raudhatul Athfal"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Bimbingan Penyuluhan Islam"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Ilmu Hadis"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Ilmu Al-Qur'an dan Tafsir"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Komunikasi dan Penyiaran Islam"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Manajemen Dakwah"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Pengembangan Masyarakat Islam"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Sejarah dan Kebudayaan Islam"
+                }
+              ]
+            },
+            {
+              nama: "Magister (S2)",
+              jumlah: 5,
+              prodi: [{
+                  fakultas: "Pascasarjana",
+                  nama: "Ekonomi Syariah"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Hukum Keluarga Islam (Ahwal Al-Syakhshiyyah)"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Manajemen Pendidikan Islam"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Pendidikan Agama Islam"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Pendidikan Bahasa Arab"
+                },
+                // Tambah prodi lainnya...
+              ]
+            },
+            {
+              nama: "Doktoral (S3)",
+              jumlah: 1,
+              prodi: [{
+                fakultas: "Doktoral",
+                nama: "Pendidikan Agama Islam"
+              }]
+            }
+          ],
+          selectedJenjang: {
+            nama: "",
+            prodi: []
+          }
+        };
+      },
+      methods: {
+        bukaModal(jenjang) {
+          this.selectedJenjang = jenjang;
+        }
+      }
+    }).mount("#app");
+  </script>
+
+</body>
+
+</html>
