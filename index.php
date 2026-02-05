@@ -35,6 +35,25 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .shake-btn {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -84,9 +103,7 @@
           </div>
         </div>
         <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
-          <a href="#s1" class="btn-get-started"><i class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
-          <a class="btn-get-started" style="background-color: #FFB03B;" href="#"><i class="bi bi-clipboard-check"></i> Download Brosur PMB
-            2025</a>
+          <a href="#s1" class="btn-get-started shake-btn">Daftar Sekarang</a>
         </div>
 
         <div class="row gy-4 mt-5">
@@ -111,7 +128,7 @@
           <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
             <div class="icon-box text-center">
               <div class="icon"><i class="bi bi-gem"></i></div>
-              <h4 class="title"><a href="">UKT yang sangat terjangkau, mulai dari 400.000 - 2.600.000 saja</a></h4>
+              <h4 class="title"><a href="">UKT yang sangat terjangkau, mulai dari 400.000 - 2.600.000 (S1)</a></h4>
               <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
             </div>
           </div>
@@ -174,7 +191,9 @@
                 </tbody>
               </table>
 
-              <a class="btn btn-warning" href=""><i class="bi bi-download"></i> Download Brosur Penerimaan Mahasiswa</a>
+              <a class="btn btn-warning"
+                href="https://drive.google.com/drive/folders/1KPeBGStZ32XWwHcB3-hpv-MnJUqkeo_B?usp=sharing"
+                target="_blank"><i class="bi bi-download"></i> Download Brosur Penerimaan Mahasiswa</a>
 
               <!-- Modal -->
               <div class="modal fade" id="detailModal" tabindex="-1">
@@ -247,7 +266,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>JALUR PENDAFTARAN SARJANA (S1)</h2>
-        <p>Pilih jalur penerimaan yang sesuai</p>
+        <p>Pilih jalur penerimaan</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -262,10 +281,11 @@
               <p>Seleksi nasional tanpa tes, berdasarkan nilai rapor dan prestasi akademik.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-danger">Berakhir</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-secondary mt-2" href="https://span.ptkin.ac.id/" target="_blank"><i class="bi bi-check-circle"></i>
-                Pengumuman Kelulusan</a>
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://span.ptkin.ac.id/"><i
+                  class="bi bi-check-circle"></i>
+                Informasi dan Pendaftaran</a>
             </div>
           </div><!-- End Service Item -->
 
@@ -279,10 +299,11 @@
                 Agama.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/" target="_blank"><i class="bi bi-clipboard-check"></i>
-                Daftar Sekarang</a>
+              <!-- <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
+                Daftar Sekarang</a> -->
+
 
             </div>
           </div><!-- End Service Item -->
@@ -295,10 +316,10 @@
               <p>Seleksi penerimaan yang diselenggarakan IAIN Kendari menggunakan Tes Berbasis Komputer (CBT).</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi" target="_blank"><i
-                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+              <!-- <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a> -->
             </div>
           </div><!-- End Service Item -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -310,10 +331,10 @@
               <p>Penerimaan mahasiswa berdasarkan pengakuan atas pengalaman kerja atau pembelajaran sebelumnya.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi" target="_blank"><i
-                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+              <!-- <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a> -->
             </div>
           </div><!-- End Service Item -->
 
@@ -344,8 +365,8 @@
                 <strong>Status:</strong>
                 <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi" target="_blank"><i
-                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://pps.iainkendari.ac.id/jalur-seleksi"><i
+                  class="bi bi-clipboard-check"></i> Informasi dan Pendaftaran</a>
             </div>
           </div><!-- End Service Item -->
 
@@ -377,7 +398,9 @@
                 </svg>
                 <i class="bi bi-activity"></i>
               </div>
-              <h3>UKT yang sangat terjangkau</h3>
+              <a href="service-details.html" class="stretched-link">
+                <h3>UKT yang sangat terjangkau</h3>
+              </a>
               <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
                 tempore et consequatur.</p> -->
             </div>
@@ -393,7 +416,9 @@
                 </svg>
                 <i class="bi bi-broadcast"></i>
               </div>
-              <h3>Layanan Digital Terintegrasi</h3>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Layanan Digital Terintegrasi</h3>
+              </a>
               <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
                 nesciunt dolorem.</p> -->
             </div>
@@ -409,7 +434,9 @@
                 </svg>
                 <i class="bi bi-easel"></i>
               </div>
-              <h3>Berbagai Pilihan Beasiswa</h3>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Berbagai Pilihan Beasiswa</h3>
+              </a>
               <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
                 eos earum corrupti.</p> -->
             </div>
@@ -425,9 +452,12 @@
                 </svg>
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
-              <h3>Pembinaan Minat dan Bakat Mahasiswa</h3>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Pembinaan Minat dan Bakat Mahasiswa</h3>
+              </a>
               <!-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
                 adipisci neque.</p> -->
+              <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -441,9 +471,12 @@
                 </svg>
                 <i class="bi bi-calendar4-week icon"></i>
               </div>
-              <h3>Fasilitas Lengkap & Modern</h3>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Fasilitas Lengkap & Modern</h3>
+              </a>
               <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
                 alias eius labore.</p> -->
+              <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -457,9 +490,12 @@
                 </svg>
                 <i class="bi bi-chat-square-text"></i>
               </div>
-              <h3>Kampus Pelopor Metaverse</h3>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Kampus Pelopor Metaverse</h3>
+              </a>
               <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
                 recusandae ducimus enim.</p> -->
+              <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -567,7 +603,7 @@
 
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Admisi</strong> <span>IAIN KENDARI 2025</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Admisi</strong> <span>IAIN KENDARI 2026</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
@@ -735,11 +771,16 @@
             },
             {
               nama: "Doktoral (S3)",
-              jumlah: 1,
+              jumlah: 2,
               prodi: [{
-                fakultas: "Doktoral",
-                nama: "Pendidikan Agama Islam"
-              }]
+                  fakultas: "Doktoral",
+                  nama: "Pendidikan Agama Islam"
+                },
+                {
+                  fakultas: "Doktoral",
+                  nama: "Studi Islam"
+                }
+              ]
             }
           ],
           selectedJenjang: {
