@@ -281,11 +281,11 @@
               <p>Seleksi nasional tanpa tes, berdasarkan nilai rapor dan prestasi akademik.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-warning">Pendaftaran Ulang</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://span.ptkin.ac.id/"><i
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="#"><i
                   class="bi bi-check-circle"></i>
-                Informasi dan Pendaftaran</a>
+                Daftar Ulang di Sini</a>
             </div>
           </div><!-- End Service Item -->
 
@@ -299,10 +299,10 @@
                 Agama.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <!-- <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
-                Daftar Sekarang</a> -->
+              <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
+                Daftar Sekarang</a>
 
 
             </div>
