@@ -361,10 +361,10 @@
               <p>Penerimaan mahasiswa magister dengan Sistem Kuliah Reguler.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-success">Tertutup</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://pps.iainkendari.ac.id/jalur-seleksi"><i
-                  class="bi bi-clipboard-check"></i> Informasi dan Pendaftaran</a>
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://pps.iainkendari.ac.id"><i
+                  class="bi bi-clipboard-check"></i> Web Pascasarjana</a>
             </div>
           </div><!-- End Service Item -->
 
