@@ -283,9 +283,9 @@
                 <strong>Status:</strong>
                 <span class="text-warning">Pendaftaran Ulang</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 btn-sm shake-btn" href="#"><i
+              <button class="btn btn-warning mt-2 btn-sm shake-btn" onclick="alert('Link Daftar Ulang belum tersedia, Cek Secara Berkala ')"><i
                   class="bi bi-check-circle"></i>
-                Daftar Ulang di Sini</a>
+                Daftar Ulang di Sini</button>
             </div>
           </div><!-- End Service Item -->
 
@@ -299,12 +299,10 @@
                 Agama.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-success">Terbuka Tanggal 13 April 2026</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
               <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
-                Daftar Sekarang</a>
-
-
+                Cek Informasi Lengkap</a>
             </div>
           </div><!-- End Service Item -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
