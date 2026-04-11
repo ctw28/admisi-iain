@@ -37,6 +37,24 @@
   ======================================================== -->
   <style>
     .shake-btn {
+      animation: pulse 1.2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.08);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .shake-btn {
       animation: pulse 1.5s infinite;
     }
 
@@ -148,7 +166,28 @@
       </div>
 
     </section><!-- /Hero Section -->
+    <section class="py-3" style="background: linear-gradient(90deg, #198754, #20c997);">
+      <div class="container text-center text-white">
 
+        <h4 class="mb-2">
+          🎉 <strong>PENGUMUMAN SPAN-PTKIN 2026</strong>
+        </h4>
+
+        <p class="mb-3">
+          Selamat kepada peserta yang dinyatakan <strong>LULUS</strong>.
+          Silakan segera melakukan <strong>DAFTAR ULANG</strong>.
+        </p>
+
+        <a href="#" class="btn btn-light me-2 fw-bold shake-btn">
+          ✅ Daftar Ulang Sekarang
+        </a>
+
+        <a href="#" class="btn btn-outline-light fw-bold">
+          ℹ️ Lihat Informasi
+        </a>
+
+      </div>
+    </section>
     <!-- About Alt Section -->
     <section id="about" class="about-alt section">
 

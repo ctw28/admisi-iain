@@ -37,6 +37,24 @@
   ======================================================== -->
   <style>
     .shake-btn {
+      animation: pulse 1.2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.08);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .shake-btn {
       animation: pulse 1.5s infinite;
     }
 
@@ -97,57 +115,90 @@
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-out">
-          <div class="col-xl-7 col-lg-9 text-center">
-            <h1>Admisi IAIN Kendari</h1>
-            <p>Portal Penerimaan Mahasiswa IAIN Kendari</p>
+          <div class="col-xl-7 col-lg-9">
+            <div class="bg-white p-4 p-md-5 rounded shadow text-center">
+              <!-- Title -->
+              <h1>🎉 Selamat!</h1>
+
+              <!-- Description -->
+              <p>
+                Hasil <strong>SPAN-PTKIN 2026</strong> telah diumumkan.<br>
+                Bagi yang dinyatakan <strong>LULUS</strong>, silakan segera melakukan <strong>DAFTAR ULANG</strong>.<br>
+                <small>Belum mendaftar? Pilih jalur lain di bawah.</small>
+              </p>
+
+              <!-- Tombol Utama -->
+              <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
+                <a href="https://sia.iainkendari.ac.id/login" target="_blank" class="btn-get-started shake-btn me-2">
+                  ✅ Daftar Ulang Sekarang
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Quick Akses Jalur Lain -->
+          <div class="row justify-content-center mt-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-8 text-center">
+
+              <p class="mb-2 text-white">Atau pilih untuk informasi jalur pendaftaran lainnya:</p>
+
+              <a href="#s1" class="btn btn-sm btn-outline-light me-2">
+                🎓 Sarjana (S1)
+              </a>
+
+              <a href="#s2" class="btn btn-sm btn-outline-light">
+                🎓 Pascasarjana (S2)
+              </a>
+
+            </div>
           </div>
         </div>
-        <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
-          <a href="#s1" class="btn-get-started shake-btn">Daftar Sekarang</a>
-        </div>
 
+        <!-- Info Box (tetap dipertahankan biar tidak kosong) -->
         <div class="row gy-4 mt-5">
+
           <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="100">
             <div class="icon-box text-center">
               <div class="icon"><i class="bi bi-easel"></i></div>
-              <h4 class="title"><a href="">Satu-satunya Perguruan Tinggi Keagamaan Negeri <br>di Sulawesi Tenggara</a>
+              <h4 class="title">
+                Satu-satunya Perguruan Tinggi Keagamaan Negeri di Sulawesi Tenggara
               </h4>
-              <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p> -->
             </div>
           </div>
-          <!--End Icon Box -->
 
-          <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
-            <div class="icon-box text-center">
-              <div class="icon"><i class="bi bi-command"></i></div>
-              <h4 class="title"><a href="">Kampus Metaverse</a></h4>
-              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p> -->
-            </div>
-          </div>
-          <!--End Icon Box -->
           <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
             <div class="icon-box text-center">
               <div class="icon"><i class="bi bi-gem"></i></div>
-              <h4 class="title"><a href="">UKT yang sangat terjangkau, mulai dari 400.000 - 2.600.000 (S1)</a></h4>
-              <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+              <h4 class="title">
+                UKT terjangkau mulai 400.000 - 2.600.000 (S1)
+              </h4>
             </div>
           </div>
-          <!--End Icon Box -->
 
           <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
             <div class="icon-box text-center">
               <div class="icon"><i class="bi bi-geo-alt"></i></div>
-              <h4 class="title"><a href="">Berbagai Pilihan Program Studi Keagamaan dan Umum</a></h4>
-              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p> -->
+              <h4 class="title">
+                Banyak pilihan program studi keagamaan & umum
+              </h4>
             </div>
           </div>
-          <!--End Icon Box -->
 
+          <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+            <div class="icon-box text-center">
+              <div class="icon"><i class="bi bi-command"></i></div>
+              <h4 class="title">
+                Kampus berbasis teknologi & inovasi
+              </h4>
+            </div>
+          </div>
 
         </div>
+
       </div>
 
-    </section><!-- /Hero Section -->
+    </section> <!-- /Hero Section -->
 
     <!-- About Alt Section -->
     <section id="about" class="about-alt section">
@@ -281,11 +332,11 @@
               <p>Seleksi nasional tanpa tes, berdasarkan nilai rapor dan prestasi akademik.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-warning">Pendaftaran Ulang</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://span.ptkin.ac.id/"><i
-                  class="bi bi-check-circle"></i>
-                Informasi dan Pendaftaran</a>
+              <a class="btn btn-warning mt-2 btn-sm shake-btn" target="_blank"
+                href="https://sia.iainkendari.ac.id/login"><i class="bi bi-check-circle"></i>
+                Daftar Ulang di Sini</a>
             </div>
           </div><!-- End Service Item -->
 
@@ -299,12 +350,11 @@
                 Agama.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-success">Terbuka Tanggal 13 April 2026</span>
+                <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <!-- <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
-                Daftar Sekarang</a> -->
-
-
+              <a class="btn btn-success mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
+                Informasi</a>
             </div>
           </div><!-- End Service Item -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -347,7 +397,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>JALUR PENDAFTARAN PASCASARJANA (S2)</h2>
+        <h2>JALUR PENDAFTARAN PASCASARJANA S2 dan S3</h2>
         <p></p>
       </div><!-- End Section Title -->
 
@@ -360,13 +410,13 @@
                 <img src="assets/img/spanum.png" width="200" alt="">
               </div>
               <h3>Reguler</h3>
-              <p>Penerimaan mahasiswa magister dengan Sistem Kuliah Reguler.</p>
+              <p>Penerimaan mahasiswa magister dan doktor dengan Sistem Kuliah Reguler.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-danger">Belum ada penerimaan</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://pps.iainkendari.ac.id/jalur-seleksi"><i
-                  class="bi bi-clipboard-check"></i> Informasi dan Pendaftaran</a>
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://pps.iainkendari.ac.id"><i
+                  class="bi bi-clipboard-check"></i> Web Pascasarjana</a>
             </div>
           </div><!-- End Service Item -->
 
