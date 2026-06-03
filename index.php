@@ -316,7 +316,7 @@
               <p>Seleksi penerimaan yang diselenggarakan IAIN Kendari menggunakan Tes Berbasis Komputer (CBT).</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
                <a class="btn btn-success mt-2" href="https://sia.iainkendari.ac.id" target="_blank"><i
                   class="bi bi-clipboard-check"></i> Daftar Sekarang</a> 
