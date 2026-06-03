@@ -318,8 +318,8 @@
                 <strong>Status:</strong>
                 <span class="text-warning">Belum Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <!-- <a class="btn btn-success mt-2" href="https://pmb.iainkendari.ac.id/jalur-seleksi"><i
-                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a> -->
+               <a class="btn btn-success mt-2" href="https://sia.iainkendari.ac.id" target="_blank"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a> 
             </div>
           </div><!-- End Service Item -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
