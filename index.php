@@ -357,7 +357,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon">
-                <img src="assets/img/spanum.png" width="200" alt="">
+                <img src="assets/img/logo iain kendari.webp" width="100" alt="">
               </div>
               <h3>Reguler</h3>
               <p>Penerimaan mahasiswa magister dengan Sistem Kuliah Reguler.</p>
