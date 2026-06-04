@@ -359,8 +359,23 @@
               <div class="icon">
                 <img src="assets/img/logo iain kendari.webp" width="100" alt="">
               </div>
-              <h3>Reguler</h3>
-              <p>Penerimaan mahasiswa magister dengan Sistem Kuliah Reguler.</p>
+              <h3>Reguler S2</h3>
+              <p>Penerimaan mahasiswa magister (S2) dengan Sistem Kuliah Reguler.</p>
+              <p class="mb-1">
+                <strong>Status:</strong>
+                <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+              </p>
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://sia.iainkendari.ac.id" target="_blank"><i
+                  class="bi bi-clipboard-check"></i> Informasi dan Pendaftaran</a>
+            </div>
+          </div><!-- End Service Item -->
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="assets/img/logo iain kendari.webp" width="100" alt="">
+              </div>
+              <h3>Reguler S3</h3>
+              <p>Penerimaan mahasiswa doktor (S3) dengan Sistem Kuliah Reguler.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
                 <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
