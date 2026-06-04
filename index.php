@@ -365,7 +365,7 @@
                 <strong>Status:</strong>
                 <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://pps.iainkendari.ac.id/jalur-seleksi"><i
+              <a class="btn btn-success mt-2 btn-sm shake-btn" href="https://sia.iainkendari.ac.id" target="_blank"><i
                   class="bi bi-clipboard-check"></i> Informasi dan Pendaftaran</a>
             </div>
           </div><!-- End Service Item -->
