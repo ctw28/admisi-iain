@@ -299,10 +299,10 @@
                 Agama.</p>
               <p class="mb-1">
                 <strong>Status:</strong>
-                <span class="text-warning">Pendaftaran Tertutup</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
+                <span class="text-warning">Daftar Ulang</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-              <a class="btn btn-warning mt-2 me-2" href="https://um.ptkin.ac.id/"><i class="bi bi-clipboard-check"></i>
-                Informasi</a>
+              <a class="btn btn-warning mt-2 me-2" href="https://sia.iainkendari.ac.id/login"><i class="bi bi-clipboard-check"></i>
+                Daftar Ulang</a>
 
 
             </div>
@@ -318,8 +318,8 @@
                 <strong>Status:</strong>
                 <span class="text-success">Terbuka</span> <!-- atau gunakan text-danger untuk "Tertutup" -->
               </p>
-               <a class="btn btn-success mt-2" href="https://sia.iainkendari.ac.id" target="_blank"><i
-                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a> 
+              <a class="btn btn-success mt-2" href="https://sia.iainkendari.ac.id" target="_blank"><i
+                  class="bi bi-clipboard-check"></i> Daftar Sekarang</a>
             </div>
           </div><!-- End Service Item -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -369,7 +369,7 @@
                   class="bi bi-clipboard-check"></i> Informasi dan Pendaftaran</a>
             </div>
           </div><!-- End Service Item -->
-<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon">
                 <img src="assets/img/logo iain kendari.webp" width="100" alt="">
@@ -625,189 +625,192 @@
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
-          href=“https://themewagon.com>ThemeWagon </div> </div> </footer> <!-- Scroll Top -->
-          <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-              class="bi bi-arrow-up-short"></i></a>
+          href=“https://themewagon.com>ThemeWagon
+      </div>
+    </div>
+  </footer> <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-          <!-- Preloader -->
-          <div id="preloader"></div>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-          <!-- Vendor JS Files -->
-          <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-          <script src="assets/vendor/php-email-form/validate.js"></script>
-          <script src="assets/vendor/aos/aos.js"></script>
-          <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-          <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-          <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-          <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-          <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-          <!-- Main JS File -->
-          <script src="assets/js/main.js"></script>
-          <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
-          <script>
-            const {
-              createApp
-            } = Vue;
+  <script>
+    const {
+      createApp
+    } = Vue;
 
-            createApp({
-              data() {
-                return {
-                  jenjangList: [{
-                      nama: "Sarjana (S1)",
-                      jumlah: 20,
-                      prodi: [{
-                          fakultas: "Ekonomi dan Bisnis Islam",
-                          nama: "Ekonomi Syariah"
-                        },
-                        {
-                          fakultas: "Ekonomi dan Bisnis Islam",
-                          nama: "Manajemen Bisnis Syariah"
-                        },
-                        {
-                          fakultas: "Ekonomi dan Bisnis Islam",
-                          nama: "Perbankan Syariah"
-                        },
-                        {
-                          fakultas: "Syariah",
-                          nama: "Hukum Keluarga Islam (Ahwal Syakhshiyyah)"
-                        },
-                        {
-                          fakultas: "Syariah",
-                          nama: "Hukum Tatanegara (Siyasah Syar'iyyah)"
-                        },
-                        {
-                          fakultas: "Syariah",
-                          nama: "Hukum Ekonomi Syariah (Mua'malah)"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Tadris Bahasa Inggris"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Tadris Biologi"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Tadris Fisika"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Tadris IPA"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Manajemen Pendidikan Islam"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Tadris Matematika"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Pendidikan Agama Islam"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Pendidikan Bahasa Arab"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Pendidikan Guru Madrasah Ibtidaiyah"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Pendidikan Islam Anak Usia Dini"
-                        },
-                        {
-                          fakultas: "Tarbiyah dan Ilmu Keguruan",
-                          nama: "Pendidikan Guru Raudhatul Athfal"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Bimbingan Penyuluhan Islam"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Ilmu Hadis"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Ilmu Al-Qur'an dan Tafsir"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Komunikasi dan Penyiaran Islam"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Manajemen Dakwah"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Pengembangan Masyarakat Islam"
-                        },
-                        {
-                          fakultas: "Ushuluddin, Adab dan Dakwah",
-                          nama: "Sejarah dan Kebudayaan Islam"
-                        }
-                      ]
-                    },
-                    {
-                      nama: "Magister (S2)",
-                      jumlah: 5,
-                      prodi: [{
-                          fakultas: "Pascasarjana",
-                          nama: "Ekonomi Syariah"
-                        },
-                        {
-                          fakultas: "Pascasarjana",
-                          nama: "Hukum Keluarga Islam (Ahwal Al-Syakhshiyyah)"
-                        },
-                        {
-                          fakultas: "Pascasarjana",
-                          nama: "Manajemen Pendidikan Islam"
-                        },
-                        {
-                          fakultas: "Pascasarjana",
-                          nama: "Pendidikan Agama Islam"
-                        },
-                        {
-                          fakultas: "Pascasarjana",
-                          nama: "Pendidikan Bahasa Arab"
-                        },
-                        // Tambah prodi lainnya...
-                      ]
-                    },
-                    {
-                      nama: "Doktoral (S3)",
-                      jumlah: 2,
-                      prodi: [{
-                          fakultas: "Doktoral",
-                          nama: "Pendidikan Agama Islam"
-                        },
-                        {
-                          fakultas: "Doktoral",
-                          nama: "Studi Islam"
-                        }
-                      ]
-                    }
-                  ],
-                  selectedJenjang: {
-                    nama: "",
-                    prodi: []
-                  }
-                };
-              },
-              methods: {
-                bukaModal(jenjang) {
-                  this.selectedJenjang = jenjang;
+    createApp({
+      data() {
+        return {
+          jenjangList: [{
+              nama: "Sarjana (S1)",
+              jumlah: 20,
+              prodi: [{
+                  fakultas: "Ekonomi dan Bisnis Islam",
+                  nama: "Ekonomi Syariah"
+                },
+                {
+                  fakultas: "Ekonomi dan Bisnis Islam",
+                  nama: "Manajemen Bisnis Syariah"
+                },
+                {
+                  fakultas: "Ekonomi dan Bisnis Islam",
+                  nama: "Perbankan Syariah"
+                },
+                {
+                  fakultas: "Syariah",
+                  nama: "Hukum Keluarga Islam (Ahwal Syakhshiyyah)"
+                },
+                {
+                  fakultas: "Syariah",
+                  nama: "Hukum Tatanegara (Siyasah Syar'iyyah)"
+                },
+                {
+                  fakultas: "Syariah",
+                  nama: "Hukum Ekonomi Syariah (Mua'malah)"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Bahasa Inggris"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Biologi"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Fisika"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris IPA"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Manajemen Pendidikan Islam"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Tadris Matematika"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Agama Islam"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Bahasa Arab"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Guru Madrasah Ibtidaiyah"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Islam Anak Usia Dini"
+                },
+                {
+                  fakultas: "Tarbiyah dan Ilmu Keguruan",
+                  nama: "Pendidikan Guru Raudhatul Athfal"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Bimbingan Penyuluhan Islam"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Ilmu Hadis"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Ilmu Al-Qur'an dan Tafsir"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Komunikasi dan Penyiaran Islam"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Manajemen Dakwah"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Pengembangan Masyarakat Islam"
+                },
+                {
+                  fakultas: "Ushuluddin, Adab dan Dakwah",
+                  nama: "Sejarah dan Kebudayaan Islam"
                 }
-              }
-            }).mount("#app");
-          </script>
+              ]
+            },
+            {
+              nama: "Magister (S2)",
+              jumlah: 5,
+              prodi: [{
+                  fakultas: "Pascasarjana",
+                  nama: "Ekonomi Syariah"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Hukum Keluarga Islam (Ahwal Al-Syakhshiyyah)"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Manajemen Pendidikan Islam"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Pendidikan Agama Islam"
+                },
+                {
+                  fakultas: "Pascasarjana",
+                  nama: "Pendidikan Bahasa Arab"
+                },
+                // Tambah prodi lainnya...
+              ]
+            },
+            {
+              nama: "Doktoral (S3)",
+              jumlah: 2,
+              prodi: [{
+                  fakultas: "Doktoral",
+                  nama: "Pendidikan Agama Islam"
+                },
+                {
+                  fakultas: "Doktoral",
+                  nama: "Studi Islam"
+                }
+              ]
+            }
+          ],
+          selectedJenjang: {
+            nama: "",
+            prodi: []
+          }
+        };
+      },
+      methods: {
+        bukaModal(jenjang) {
+          this.selectedJenjang = jenjang;
+        }
+      }
+    }).mount("#app");
+  </script>
 
 </body>
 
